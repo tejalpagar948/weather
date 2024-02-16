@@ -1,0 +1,103 @@
+body{
+  margin: 0;
+  padding: 0;
+
+}
+
+.main{
+
+margin: 5vw 10vw ; 
+}
+
+.card{
+  background-image:linear-gradient(rgb(39, 173, 155),rgb(48, 144, 142),rgb(65, 104, 204));
+}
+
+#t{
+  border-radius: 20px;
+  border: none;
+
+}
+
+.search{
+  padding: 30px 20px;
+}
+
+.search input{
+  
+  border-radius: 62px;
+  height: 48px;
+  border: none;
+  padding-left: 30px;
+  font-size: 1.2rem;
+  width: 68%;
+}
+
+.search .fa-magnifying-glass{
+background-color: white;
+padding: 15px;
+border-radius: 30px;
+height: 48px;
+margin-left: 5px;
+}
+.cont{
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.cont h1{
+  font-size: 3.6rem;
+  font-weight: revert;
+}
+
+.cont h2{
+  font-size: 2rem;
+  font-weight: normal;
+  margin-bottom: 42px;
+}
+
+.hw{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.hw .one{
+display: flex;
+}
+
+.hw .one .one1 i{
+font-size: 2rem;
+margin: 5px;
+
+
+  }
+  
+  .hw .one .one2 h6{
+  margin: 0;
+      }
+
+      .fa-magnifying-glass:active{
+background-color: gray;
+      } 
+      
+      
+      .error
+      {
+        color: aliceblue;
+         padding: 10px 50px;
+         font-size: 1.2rem;
+        display: none;
+
+      }
+
+
+      .error p{
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      .info{
+        display: none;
+      } 
